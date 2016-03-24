@@ -1,6 +1,6 @@
 {
   "name": "js-cookies",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "[![NPM Version][npm-image]][npm-url]",
   "main": "./src/cookies.js",
   "directories": {
