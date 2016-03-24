@@ -3,7 +3,7 @@
 
 ## how
 ```
-npm install cookies
+npm install js-cookies
 ```
 如果需要编译之后的版本
 ```
