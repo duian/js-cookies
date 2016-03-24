@@ -1,6 +1,5 @@
 # cookies
 [![NPM Version][npm-image]][npm-url]
-[![Babel Version][babel-image]][babel-url]
 
 ## how
 ```
@@ -25,7 +24,8 @@ cookies.keys()
 cookie.removeItem('foo');
 // ''
 ```
-
+// Todo
+test
 
 ## License
 [MIT](LICESE)
