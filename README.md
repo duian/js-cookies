@@ -5,6 +5,7 @@
 ```
 npm install js-cookies
 ```
+
 如果需要编译之后的版本
 ```
 npm run build
@@ -24,8 +25,10 @@ cookies.keys()
 cookie.removeItem('foo');
 // ''
 ```
-// Todo
-test
+
+##test
+npm run devtest
+在浏览器地址栏输入: `http://localhost:8088/webpack-dev-server/test/index.html`
 
 ## License
 [MIT](LICESE)
