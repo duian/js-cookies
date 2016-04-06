@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "build": "babel src/cookies.js -o ./index.js && webpack index.js index.js",
+    "build": "babel src/cookies.js -o ./index.js",
     "devtest": "webpack-dev-server --config webpack.tests.config.js",
     "test": "mocha --compilers js:babel-register test/cookies.spec.js"
   },
@@ -34,6 +34,7 @@
     "babel-register": "^6.7.2",
     "mocha": "^2.4.5",
     "mocha-loader": "^0.7.1",
-    "webpack": "^1.12.14"
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
   }
 }

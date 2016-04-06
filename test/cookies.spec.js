@@ -17,6 +17,8 @@ describe('Cookies', function () {
   it('#hasItem() should return a boolean', function () {
     cookies.setItem('age', 24);
     cookies.hasItem('age').should.be.equal(true);
+    cookies.removeItem('age')
+    cookies.hasItem('age').should.be.equal(false);
   })
 
   it('#keys() should return a array', function () {
